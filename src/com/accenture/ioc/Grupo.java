@@ -1,5 +1,10 @@
 package com.accenture.ioc;
 
+/**
+ * Clase que representa un grupo
+ * 
+ * @author Andrea Ravagli Castillo
+ */
 public class Grupo {
 	private int id;
 	private String nombre;
