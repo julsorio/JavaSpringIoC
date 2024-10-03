@@ -5,13 +5,14 @@
     http://www.springframework.org/schema/beans 
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="grupo" class="com.accenture.ioc.Grupo">
+	<!-- De esta forma introduzco los valores pero Spring los settea
+	  <bean id="grupo" class="com.accenture.ioc.Grupo">
 		<property name="id" value="100" />
 		<property name="nombre" value="The Cure" />
 		<property name="creacion" value="1976" />
 		<property name="origen" value="Reino Unido" />
 		<property name="genero" value="Rock" />
-	</bean>
-
+	</bean> -->
+<bean id="grupo" class="com.accenture.ioc.Grupo" />
 	
 </beans>
